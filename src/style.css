@@ -1,0 +1,533 @@
+.blendMenu {
+  min-width: 125px !important;
+}
+
+.blendSelector {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.btn {
+  line-height: 1.0;
+}
+
+.categoricalCol {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 3px !important;
+}
+
+.categoricalColContainer {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.categoricalDropDown {
+  padding: 0 0 !important;
+}
+
+.categoricalMenu {
+  margin: 0 5px !important;
+}
+
+.categoricalMenuForm {
+  width: 150px !important;
+  margin-right: 10px !important;
+  margin-left: 3px !important;
+  position: relative !important;
+}
+
+.categoricalRoot {
+  height: 250px;
+}
+
+.cmapMenu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 312px !important;
+}
+
+code.uiContainer {
+  font-family: source-code-pro, Menlo, Mo naco, Consolas, 'Courier New',
+    monospace;
+}
+
+.colorMapIcon {
+  height: inherit;
+  width: 100% !important;
+  height: 100%;
+  min-height: 30px;
+  margin: 0 3px;
+}
+
+.componentCheckbox {
+  padding: 2px 30px 2px 40px !important;
+}
+
+.componentTabs {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 0px 0px 0px 0px !important;
+}
+
+.componentTabs:active,
+.componentTabs:focus {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.distanceEntry {
+  align-items: center;
+  border: solid;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  margin: 2px;
+  padding-left: 15px;
+}
+
+.distanceLabelCommon {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+.distanceLabelBrightBG {
+  color: black;
+}
+
+.distanceLabelDarkBG {
+  color: white;
+}
+
+.distanceInput {
+  background: transparent;
+  color: white;
+  font-size: 1.0em;
+  width: 80px !important;
+  margin: 2px;
+  -webkit-text-fill-color: #5a6268b0;
+}
+
+.dropdown-menu {
+  min-width: 300px;
+  z-index: 1100 !important;
+}
+
+.dropdown-toggle:empty::after {
+  margin-left: 100% !important;
+}
+
+.gradientOpacityScale {
+  z-index: 1100;
+  position: relative;
+}
+
+.gradientOpacityInput {
+  position: absolute !important;
+  bottom: 25px;
+  left: -38px;
+  width: 30px !important;
+  height: 140px !important;
+  -webkit-appearance: slider-vertical;
+}
+
+.gradientSliderContainer {
+  width: 300px;
+}
+
+.hiddenSlider {
+  display: none !important;
+}
+
+.hidden {
+  visibility: collapse !important;
+  height: 0px !important;
+  margin: 0px !important;
+}
+
+.icon-button {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 0.2rem 0.75rem !important;
+}
+
+.icon-button>img {
+  width: 1.2rem;
+}
+
+.icon-button:active,
+.icon-button:focus {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.checked {
+  background-color: #5a6268 !important;
+}
+
+.icon-image {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  margin-right: 10px;
+}
+
+.icon-image>img {
+  width: 1.2rem;
+}
+
+.icon-image:active,
+.icon-image:focus {
+  background-color: transparent !important;
+}
+
+.iconWithSlider {
+  width: 100%;
+  display: flex;
+  align-self: normal;
+  align-items: center;
+}
+
+.invalidNumber {
+  border-color: red !important;
+  -webkit-text-fill-color: red;
+}
+
+.inverted_filter {
+  filter: invert(100%);
+}
+
+.interpolationButton {
+  width: 10mm;
+}
+
+/* .invertibleButtonBrightBG {
+} */
+
+.invertibleButtonDarkBG {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.layerEntryCommon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-width: 2px !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  border: solid;
+  max-width: 100% !important;
+  border-width: 3px !important
+}
+
+.layerEntryBrightBG {
+  border-color: #666;
+}
+
+.layerEntryDarkBG {
+  border-color: #AAA;
+}
+
+.layerIcon {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 6px;
+  height: fit-content !important;
+}
+
+.layerLabelCommon {
+  border: none;
+  background: transparent;
+  font-size: 1.2em;
+  margin-right: 10px;
+  z-index: 1000;
+}
+
+.layerLabelBrightBG {
+  color: black;
+}
+
+.layerLabelDarkBG {
+  color: white;
+}
+
+.layersUIGroup {
+  background-color: rgba(128, 128, 128, 0.5);
+  margin: 2px;
+}
+
+.layerUIGroupPadding {
+  padding: 3px !important;
+}
+
+
+.layersUIRow {
+  max-width: 420px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.ItkVtkViewer-module-fpsMonitor_25TvW {
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  z-index: 2001;
+}
+
+.ItkVtkViewer-module-logo_3Lu7I {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  height: 2.0em;
+  width: 2.0em;
+  cursor: pointer;
+  z-index: 2000;
+}
+
+.mainUIRow {
+  justify-content: space-evenly;
+  max-width: 420px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2px;
+}
+
+.navbar-button {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  margin-left: 10px !important;
+}
+
+.navbar-button>img {
+  width: 1.2rem;
+}
+
+.navbar-button:active {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.navItem {
+  padding: 0.2rem 0.5rem !important;
+}
+
+.navbarTitle {
+  padding: 0.5rem 0rem 0.5rem 1rem !important;
+}
+
+.numberInput {
+  max-width: 100px;
+}
+
+.overlayImage {
+  position: absolute;
+  padding: 5px 7px;
+  width: 85%;
+  height: 100%;
+  vertical-align: auto;
+  pointer-events: none;
+}
+
+.overlayImage {
+  position: absolute;
+  padding: 5px 5px;
+  width: 85%;
+  height: 100%;
+  vertical-align: auto;
+  pointer-events: none;
+}
+
+.piecewiseWidget {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  z-index: 1000;
+}
+
+.planeSliders {
+  margin-top: 5px;
+  margin-left: 10px;
+  display: block;
+  align-items: center;
+  padding-right: 2px;
+  height: 10px;
+  width: 50%;
+}
+
+.labelBadge {
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 50%;
+  width: max(2%, 60px);
+}
+
+.xbadge {
+  background-color: red;
+}
+
+.ybadge {
+  background-color: yellow;
+}
+
+.zbadge {
+  background-color: green;
+}
+
+.selectedLayer {
+  border: solid;
+  border-color: rgba(255, 255, 255, 0.3);
+  border-width: 3px !important;
+  max-width: 100% !important;
+}
+
+.selector {
+  display: flex;
+  direction: row;
+  font-size: 1.2em;
+  z-index: 1000;
+}
+
+.shadowButton {
+  width: 8mm;
+  padding: 4px;
+  padding-left: 0px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.slider {
+  flex: 1;
+  min-height: 1rem;
+  width: 5px;
+  align-self: center;
+  margin-right: 5px;
+  margin-top: 7px;
+}
+
+.sliderEntry {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sliderIcons {
+  margin: 5px !important;
+  padding: 0 !important;
+}
+
+.toggleButton {
+  line-height: inherit !important;
+  border: none !important;
+  margin: 1px !important;
+}
+
+.toggledOffIcon {
+  opacity: 0.45;
+}
+
+/* .tooltipButtonBrightBG::before {
+} */
+
+.tooltipButtonDarkBG::before {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.uiContainer {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 2px;
+  border: 0px;
+  box-sizing: border-box;
+  z-index: 1000;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.uiGroup {
+  background: rgba(128, 128, 128, 0.5);
+  border-radius: 4px;
+}
+
+.uiImages {
+  padding: 2px;
+  max-width: 420px;
+}
+
+.uiRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.uiSelector {
+  justify-content: left;
+}
+
+.uiSlidersGroup {
+  background: transparent;
+  position: fixed;
+  bottom: 0;
+  left: 7%;
+  width: calc(100% - 90px);
+  margin: 3px 0;
+}
+
+.uiSlidersGroupCondensed {
+  background: rgba(128, 128, 128, 0.5);
+  position: fixed;
+  bottom: 0;
+  left: 420px;
+  width: calc(100% - 425px);
+  margin: 10px 0;
+}
+
+.viewContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background: rgba(128, 128, 128, 0.8);
+}
+
+.viewModeButton {
+  flex: 1;
+  width: 8mm;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.viewModeButton img {
+  width: 1.3em;
+  height: 1.3em;
+}
+
+.viewModeButtons {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+.visibleIcon {
+  display: inline-block;
+}
